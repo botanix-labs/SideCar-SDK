@@ -253,7 +253,7 @@ function startPeriodicCheckpointStorage() {
 		} catch (error) {
 			console.error("Failed to store checkpoint:", error);
 		}
-	}, CONFIG.CHECKPOINT_STORAGE_INTERVAL_MS);
+	}, 60000);
 }
 ```
 
