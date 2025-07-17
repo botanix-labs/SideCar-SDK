@@ -67,7 +67,6 @@
     }
 
     const { host, port, username, password } = this.config.bitcoindConfig;
-    console.log('Connecting to bitcoind at', host, port, username, password)
     const client = new RPCClient({
         host: host,
         port: port,
