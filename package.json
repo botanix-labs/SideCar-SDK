@@ -2,6 +2,17 @@
   "name": "botanix-sidecar-sdk",
   "version": "0.0.1",
   "description": "SDK for interacting with Botanix Sidecar service",
+  "keywords": ["botanix", "bitcoin", "pegin", "sidecar", "crypto", "blockchain"],
+  "author": "Botanix Labs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/botanix-labs/botanix-sidecar-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/botanix-labs/botanix-sidecar-sdk/issues"
+  },
+  "homepage": "https://github.com/botanix-labs/botanix-sidecar-sdk#readme",
   "type": "commonjs",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",

@@ -1,0 +1,35 @@
+# Source files
+src/
+*.test.ts
+*.test.js
+
+# Development files
+tsconfig*.json
+rollup.config.js
+jest.config.js
+
+# Documentation
+README.md
+LICENSE
+
+# Development dependencies
+node_modules/
+yarn.lock
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+
+# Logs
+*.log
+
+# Git
+.git/
+.gitignore
